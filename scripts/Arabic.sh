@@ -3,7 +3,7 @@
 # This script is designed to change Arabic fonts
 
 # Main link for configs
-mainLink="https://github.com/aeiedamo/FontsFixer/blob/main/"
+mainLink="https://aeiedamo.github.io/FontsFixer/scripts"
 # Available font families
 listofFontFam=("Noto" "Plex")
 # Make a backup of the orgininal local fonts file

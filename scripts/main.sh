@@ -4,7 +4,7 @@
 
 listOfLangs=("Arabic")
 
-mainLink="https://github.com/aeiedamo/FontsFixer/blob/main/"
+mainLink="https://aeiedamo.github.io/FontsFixer/scripts"
 
 echo "Select a language:"
 
@@ -17,6 +17,6 @@ curl -fsSL "$mainLink/scripts/$selectLang.sh" | sudo bash
 echo "It's recommended to reboot after changing fonts settings. Do you want to reboot now?"
 select res in "Yes" "No"; do
 	if [ $res = "Yes" ]; then
-		reboot
+		sudo systemctl reboot
 	fi
 done
